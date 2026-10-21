@@ -30,7 +30,7 @@ const workerConfig: WorkerConfig = {
       id: 'avori_forms',
       name: 'Enquiry form handler',
       method: 'GET',
-      target: 'https://avori-enquiry.vishan-varsani321.workers.dev/check',
+      target: 'https://avori-enquiry.vishan-varsani321.workers.dev/ping',
       tooltip: 'Sends website enquiries to Avori',
       expectedCodes: [200],
       timeout: 15000,
